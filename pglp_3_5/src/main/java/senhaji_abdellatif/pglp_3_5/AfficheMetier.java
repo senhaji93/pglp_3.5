@@ -11,14 +11,15 @@ public class AfficheMetier implements AffichageMetier {
 	 */
 	public void afficheDebut() {
 		System.out.println(LocalDateTime.now()
-				+ " : Début de UneMethodeMetier");
+				+ " : Début de Une Methode Metier");
 	}
 	/**
 	 * fonction pour l'affichage du log à la fin.
 	 */
+
 	public void afficheFin() {
 		System.out.println(LocalDateTime.now()
-				+ " : Fin de UneMethodeMetier");
+				+ " : Fin de Une Methode Metier");
 	}
 
 }
