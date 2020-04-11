@@ -7,6 +7,7 @@ public interface AffichageMetier {
 	/**
 	 * affichage au début.
 	 */
+
 	void afficheDebut();
 	/**
 	 * affichage à la fin.
