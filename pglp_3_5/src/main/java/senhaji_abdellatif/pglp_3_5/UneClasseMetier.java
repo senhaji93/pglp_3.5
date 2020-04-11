@@ -12,12 +12,14 @@ public class UneClasseMetier {
 	 * constructeur de la classe.
 	 * @param am initialise l'affichage
 	 */
+
 	public UneClasseMetier(final AfficheMetier am) {
 		this.am = am;
 	}
 	/**
 	 * fonction pour traiter le métier.
 	 */
+
 	public void uneMethodeMetier() {
 		am.afficheDebut(); // log message
 		//Traitements métiers
